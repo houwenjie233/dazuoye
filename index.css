@@ -1,0 +1,291 @@
+/*
+* @Author: 10709
+* @Date:   2019-06-17 09:04:19
+* @Last Modified by:   10709
+* @Last Modified time: 2019-06-18 16:07:19
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.header-wrap{
+	height: 185px;
+	border-bottom: 2px solid #3aa747;
+
+}
+.header{
+	width: 1200px;
+	height: 185px;
+	margin: 0 auto;
+}
+.header p{
+	margin-left: 530px;
+	float: left;
+	font-size: 13px;
+}
+.header a{
+	font-size: 14px;
+	margin-left: 35px;
+	float: left;
+}
+.clear:after{
+	content: '';
+	height: 0;
+	display: block;
+	clear: both;
+}
+.axi li{
+	font-size: 14px;
+	float: left;
+	width: 110px;
+	
+}
+.qx{
+	background: url('imgs/jiantou.png') no-repeat 100px 5px;
+}
+.header img{
+	float: left;
+	margin-left: 8px;
+}
+.wx{
+	margin-right: 0px;
+}
+.in{
+	border: 2px solid #393942;
+	width: 600px;
+	height: 45px;
+	float: left;
+	margin-left: 180px;
+	margin-right: 120px;
+	margin-top: 50px;
+}
+.in img{
+	float: left;
+	margin-top: 5px;
+}
+.xiaotu{
+	margin-top: 35px;
+}
+.sous{
+	height: 45px;
+	line-height: 45px;
+	text-indent: 250px;
+	color: #ccc;
+}
+.in input{
+	float: left;
+	outline: none;
+	border: none;
+	width: 550px;
+}
+.du{
+	float: left;
+	margin: 55px 0px 0px 0px;
+}
+.pp{
+	float: left;
+	background: url('imgs/jiantou.png') no-repeat 110px 8px;
+}
+.lie{
+	margin-top: 30px;
+	float: left;
+}
+.lie li{
+	text-align: center;
+	float: left;
+	width: 120px;
+	height: 30px;
+}
+.lie li:hover{
+	border-bottom: 3px solid #3aa747;
+	color:#3aa747 ;
+}
+.lie li:first-child:hover{
+	border: none;
+	color: black;
+}
+.tupian{
+	width: 100%;
+	height: 670px;
+	background: url('imgs/banner.png') no-repeat center;
+}
+.dingwei{
+	width: 75px;
+	height: 590px;
+	background-color: #0c110e;
+	position: fixed;
+	right: 0px;
+	top: 190px;
+}
+.fix li{
+	width: 75px;
+	height: 120px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+.fix img{
+	margin-top: 45px;
+}
+.nei{
+	height: 1015px;
+	width: 100%;
+}
+.neinei{
+	width: 1200px;
+	height: 1015px;
+	margin: 0 auto;
+}
+.span{
+	margin: 5px 0px 5px 0px;
+}
+.h{
+	color: #8d8d8d;
+	float: left;
+}
+.hui{
+	font-size: 14px;
+	color: #8d8d8d;
+	margin-left: 5px;
+}
+.huii{
+	float: right;
+	font-size: 14px;
+	color: #8d8d8d;}
+.biaog li{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 90px;
+}
+.biaog li:first-child{
+	margin-left: 0px;
+	width: 100px;
+	height: 45px;
+	text-align: center;
+	background-color: #e5e5e5;
+}
+.gg li:last-child{
+	float: right;
+}
+.tutu{
+	margin-top: 5px;
+	height: 825px;
+}
+.yu li{
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 270px;
+	height: 295px;
+	border: 1px solid black;
+	position: relative;
+}
+.yu li:first-child{
+	margin-left: 5px;
+	background: url('imgs/img1.png');
+}
+.yu li img{
+	margin-top: 50px;
+	margin-left: 20px;
+	text-align: center;
+}
+.hide{
+	background-color: #000;
+	text-align: center;
+	width: 270px;
+	height: 295px;
+	display: none;
+	opacity:0.8;
+	position: absolute;
+	bottom:0;
+}
+.hide p{
+	color: #fff;
+	margin-top: 100px;
+}
+.hide .pi{
+	margin-top: 25px;
+}
+.yu li:first-child:hover .hide{
+	display: block;
+
+}
+.hided{
+	background-color: #474744;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	width: 270px;
+	height: 45px;
+	position: absolute;
+	bottom:0;
+
+}
+.xin{
+	background-color: #f5f5f5;
+	height: 100px;
+}
+.yuan{
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.da{
+	font-size: 19px;
+
+}
+.little{
+	font-size: 13px;
+}
+
+.yua li{
+	float: left;
+	width: 285px;
+	height: 50px;
+	border-right: 1px solid grey;
+	margin-top: 30px;
+}
+.yua li:last-child{
+	border: none;
+}
+.yua img{
+	float: left;
+	margin: 0px 25px 25px 30px;
+}
+.hei{
+	height: 100px;
+	background-color: #323232;
+}
+.heihei{
+
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.tlast{
+	margin-left: 230px;
+	width: 750px;
+	height: 30px;
+	padding: 30px 0px 10px 0px;
+
+}
+.tlast li{
+	float: left;
+	margin-right: 5px;
+	height: 20px;
+}
+.tlast a{
+	color: #fff;
+}
+.hu{
+	color: #fff;
+	text-align: center;
+
+}
