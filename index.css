@@ -2,7 +2,7 @@
 * @Author: 10709
 * @Date:   2019-06-17 09:04:19
 * @Last Modified by:   10709
-* @Last Modified time: 2019-06-18 16:07:19
+* @Last Modified time: 2019-06-22 17:43:18
 */
 *{
 	padding: 0;
@@ -102,8 +102,9 @@ a{
 	float: left;
 	width: 120px;
 	height: 30px;
+	line-height: 30px;
 }
-.lie li:hover{
+.lie a:hover{
 	border-bottom: 3px solid #3aa747;
 	color:#3aa747 ;
 }
